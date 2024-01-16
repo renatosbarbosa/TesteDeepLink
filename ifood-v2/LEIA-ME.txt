@@ -1,0 +1,49 @@
+Falaaaa subido(a), bora ensinar você a configurar o script. Leia esse arquivo e depois volta no arquivo index.php e preenche os dados.
+
+Toda configuração deve ser colocada dentro das aspas duplas, aquela que está em branco, ok? Ah, você deve preencher as linhas do arquivo index.php. Esse aquivo aqui é só para ensinar você.
+
+Para conseguir o link e ID do restaurante você precisa acessar o site do ifood e localizar o restaurante do cliente, feito isso basta copiar(ctrl + c / ctrl + v) a URL do restaurante, que será basicamente assim: https://www.ifood.com.br/delivery/sao-paulo-sp/mcdonalds-av-guapira-aga-tucuruvi/f3b672d2-d81c-4bed-be6d-bcd378804464
+A URL inteira eu copio na linha "LINK_RESTAURANTE" e o ID DO RESTAURANTE fica após o nome do restaurante na URL, que é o ID f3b672d2-d81c-4bed-be6d-bcd378804464, esse ID eu copio no "ID_RESTAURANTE".
+
+define("page_title", ""); 
+-> Cola o titula da página.
+
+define("logo", "");
+-> Coloca o arquivo logo na pasta imagens e coloca o nome do arquivo com a extensão.
+
+define("id_restaurante", "f3b672d2-d81c-4bed-be6d-bcd378804464");
+-> Coloca o ID do restaurante
+
+define("link_restaurante", "https://www.ifood.com.br/delivery/sao-paulo-sp/mcdonalds-av-guapira-aga-tucuruvi/f3b672d2-d81c-4bed-be6d-bcd378804464");
+-> Coloca o link inteiro do restaurante
+
+
+define("id_gtm", "");
+-> Coloca o ID do Google Tag Manager;
+
+define("mensagem_personalizada", "");
+-> Coloca a mensagem personalizada que vai aparecer enquanto não abre a janela de conversa do WhatsApp.
+
+EXEMPLO DO SCRIPT CONFIGURADO
+
+define("page_title", "Restaurante Mc Donald's"); 
+define("logo", "ifood.png"); 
+define("id_restaurante", "f3b672d2-d81c-4bed-be6d-bcd378804464");
+define("link_restaurante", "https://www.ifood.com.br/delivery/sao-paulo-sp/mcdonalds-av-guapira-aga-tucuruvi/f3b672d2-d81c-4bed-be6d-bcd378804464");
+define("id_gtm", "GTM-M5AJZEH");
+define("mensagem_personalizada", "Olá, estamos conectando você com o restaurante!");
+
+
+Agora que você chegou até aqui, volta no post deixa o seu like, comenta e me segue no Instagram(andre.ffranco - instagram.com/andre.ffranco)
+
+
+Feito tudo isso, basta você enviar todos os arquivos para o seu servidor de hospedagem, caso não tenha pode contratar um com a Hostgator..https://www.hostgator.com.br/42780.html, os valores são bem acessíveis, suporte deles é ótimo.
+
+
+
+
+
+
+
+
+
